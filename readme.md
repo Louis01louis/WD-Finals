@@ -117,4 +117,11 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | HTML and CSS basics and picture formating |              www.w3schools.com              |
+| Sample Title | HTML and CSS basics and picture formating |    https://developer.mozilla.org/en-US/     |
+| Sample Title | HTML and CSS basics and picture formating |           https://www.youtube.com           |
+| Sample Title |               CSS Designs                 |    https://css-tricks.com/stripes-css/      |
+| Sample Title |              Image sources                |           https://ph.pinterest.com          |
+| Sample Title |              Image sources                |           https://www.uhdpaper.com          |
+
+

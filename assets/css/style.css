@@ -100,6 +100,9 @@ h1 {
     left: 51%;
     transition: transform .2s;
 }
+.move {
+    transition: all 1s ease;
+}
 .move:hover .door-left {
     animation: moveTextLeft 1.4s forwards;
 }

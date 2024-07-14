@@ -52,3 +52,43 @@ a:link {
     animation-duration: 1.5s;
 }
 
+.work-1 {
+    background-color: rgb(0, 255, 64);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.work-2 {
+    background-color: rgb(0, 38, 255);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.work-3 {
+    background-color: rgb(255, 0, 255);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+.work-4 {
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+.work-5 {
+    background-color: rgb(251, 255, 0);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 70%;
+    left: 73%;
+}

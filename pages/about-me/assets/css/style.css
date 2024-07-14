@@ -1,6 +1,8 @@
 body {
 	font-family: sans-serif, fantasy;
-	background-color: #EBB471;
+	background-image: url(../img/back-zen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a:link {
     text-decoration: none;
@@ -16,7 +18,7 @@ a:link {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #B17844;
+    background-color: #b179448a;
     height: 100px;
     }
 .imgL22 {
@@ -25,7 +27,7 @@ a:link {
     left: 50px;
 }
 .header-1 {
-    background-color: #EBB471;
+    background-color: #ebb4718c;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     width: 1200px;
@@ -46,9 +48,123 @@ a:link {
     transition: transform .2s;
 }
 .nav_btn:hover {
-    background-color: #78552B;
+    background-color: #78552b75;
     border-radius: 1px;
     transform: scale(1.5); 
     animation-duration: 1.5s;
 }
 
+.me-1 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 36%;
+    left: 18%;
+    padding: 1%;
+    transition: all 2.8s ease
+}
+.me-2 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 36%;
+    left: 48%;
+    padding: .9%;
+    transition: all 2.8s ease
+}
+.me-3 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 36%;
+    left: 78%;
+    padding: .9%;
+    transition: all 2.8s ease
+}
+.me-4 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 9%;
+    padding: .9%;
+    transition: all 2.8s ease
+}
+.me-5 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 39%;
+    padding: .9%;
+    transition: all 2.8s ease
+}
+.me-6 {
+    background-color: rgb(163, 157, 132);
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 69%;
+    padding: .9%;
+    transition: all 2.8s ease
+}
+.me-1:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
+.me-2:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
+.me-3:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
+.me-4:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
+.me-5:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
+.me-6:hover {
+    transform: scale(1.5);
+    border-radius:30px;
+    background: repeating-radial-gradient(circle,
+  rgb(223, 213, 174),
+  rgb(214, 207, 179) 10px,
+  rgb(216, 208, 180) 10px, 
+  rgb(190, 181, 146) 20px
+);
+}
