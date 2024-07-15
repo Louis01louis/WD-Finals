@@ -66,6 +66,13 @@ a:link {
     left: 5%;
     border-radius: 20px;
 }
+.tskr {
+    position: absolute;
+    top: 900px;
+    left: 1800px;
+    height: 50px;
+    width: 50px;
+}
 
 .work-1 {
     height: 350px;

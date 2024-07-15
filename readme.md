@@ -120,5 +120,4 @@ WD-ProjectName
 | Sample Title |               CSS Designs                 |    https://css-tricks.com/stripes-css/      |
 | Sample Title |              Image sources                |           https://ph.pinterest.com          |
 | Sample Title |              Image sources                |           https://www.uhdpaper.com          |
-
-
+| Sample Title |              Image Design                 |            https://www.canva.com/           |
