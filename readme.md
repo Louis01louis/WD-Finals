@@ -9,11 +9,11 @@
     <img src="./assets/img/L_3D.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">FInals</h3>
+  <h3 align="center">Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is my finals
+  This is my Finals
 </div>
 
 <br />
@@ -59,7 +59,7 @@
 <!-- The following are just sample -->
 This is my Finals submission to my Web Design with Client-Side Scripting subject
 
-My WakaTime Account: 
+My WakaTime Account:
 - https://wakatime.com/@Louis01louis
 
 ### Key Components
