@@ -2,6 +2,12 @@ body {
 	font-family: sans-serif, fantasy;
 	background-color: #EBB471;
 }
+h1 {
+    color: aliceblue;
+}
+p {
+    color: aliceblue;
+}
 a:link {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -52,22 +58,137 @@ a:link {
     animation-duration: 1.5s;
 }
 
-.words-1 {
-    background-color: aliceblue;
+.ep {
+    background-color: #78552b28;
     position: absolute;
-    top: 30%;
-    left: 46%;
-}
-.words-2 {
-    background-color: aliceblue;
-    position: absolute;
-    top: 40%;
-    left: 75%;
-}
-.words-3 {
-    background-color: aliceblue;
-    position: absolute;
-    top: 50%;
-    left: 17%;
+    top: 20%;
+    left: 5%;
+    border-radius: 20px;
 }
 
+.words-1 {
+    opacity: 100%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    opacity: 0;
+}
+.words-2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    opacity: 0;
+}
+.words-3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    opacity: 0;
+}
+
+.sk-1 {
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    height: 200px;
+    width: 300px;
+}
+.sk-2 {
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    height: 200px;
+    width: 300px;
+}
+.sk-3 {
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 73%;
+    height: 200px;
+    width: 300px;
+}
+
+.m-1 {
+    position: absolute;
+    height: 250px;
+    width: 380px;
+}
+.m-2 {
+    position: absolute;
+    height: 220px;
+    width: 400px;
+}
+.m-3 {
+    position: absolute;
+    height: 200px;
+    width: 520px;
+}
+
+.move-1 {
+    position: absolute;
+    top: 54%;
+    left: 13%;
+    height: 200px;
+    width: 300px;
+}
+.move-2 {
+    position: absolute;
+    top: 56%;
+    left: 39%;
+    height: 200px;
+    width: 300px;
+}
+.move-3 {
+    position: absolute;
+    top: 57%;
+    left: 68%;
+    height: 200px;
+    width: 300px;
+}
+
+.move-1:hover .m-1 {
+    animation: moveUp 1.4s forwards;
+}
+.move-2:hover .m-2 {
+    animation: moveUp 1.4s forwards;
+}
+.move-3:hover .m-3 {
+    animation: moveUp 1.4s forwards;
+}
+
+.move-1:hover .words-1 {
+    animation: moveUpp 1.4s forwards;
+}
+.move-2:hover .words-2 {
+    animation: moveUpp 1.4s forwards;
+}
+.move-3:hover .words-3 {
+    animation: moveUpp 1.4s forwards;
+}
+@keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-350px);
+        opacity: 1;
+    }
+}
+@keyframes moveUpp {
+    0% {
+        transform: translateY(0);
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200px);
+        opacity: 1;
+    }
+}
